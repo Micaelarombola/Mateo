@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf3fa">
+  <meta name="description" content="El bautismo y primer añito de Mateo. ¡Te esperamos!">
+
+  <title>Mateo | Bautismo y Primer Añito</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <!-- FONDO DE PARTÍCULAS -->
+  <div id="particles" class="particles" aria-hidden="true"></div>
+
+  <!-- PORTADA DE APERTURA -->
+  <section id="welcome" class="welcome">
+
+    <div class="decor-star s1">✦</div>
+    <div class="decor-star s2">✧</div>
+    <div class="decor-star s3">✦</div>
+
+    <div class="welcome-inner">
+
+      <p class="overline">UN DÍA MUY ESPECIAL</p>
+
+      <div class="portrait-wrap">
+        <div class="portrait-glow"></div>
+        <img src="portada.png" alt="Mateo">
+        <span class="portrait-star">✦</span>
+      </div>
+
+      <p class="script small-script">El Bautismo y Primer Añito de</p>
+
+      <h1>Mateo</h1>
+
+      <div class="ornament">✦ ☁ ✦</div>
+
+      <p class="welcome-text">
+        Un día lleno de amor, sueños y bendiciones.
+        <br>
+        ¡Quiero compartirlo con vos!
+      </p>
+
+      <p class="welcome-date">
+        28 · 11 · 2026
+      </p>
+
+      <button id="openBtn" class="btn btn-primary">
+        Abrir mi invitación
+        <span>♡</span>
+      </button>
+
+      
+
+      <p class="tap-hint">Tocá para descubrir mi gran día</p>
+
+    </div>
+
+    <div class="cloud cloud-w1"></div>
+    <div class="cloud cloud-w2"></div>
+
+  </section>
+
+
+  <!-- INVITACIÓN -->
+  <main id="main" hidden>
+
+    <!-- NAVEGACIÓN -->
+    <header class="nav">
+      <a href="#inicio" class="nav-logo">Mateo ♡</a>
+
+      <nav aria-label="Navegación principal">
+        <a href="#eventos">Eventos</a>
+        <a href="#cuenta">Cuenta regresiva</a>
+        <a href="#recuerdos">Fotos</a>
+        <a href="#confirmar" class="nav-rsvp">Confirmar</a>
+      </nav>
+    </header>
+
+
+    <!-- PRESENTACIÓN -->
+    <section id="inicio" class="hero">
+
+      <div class="balloon balloon-one" aria-hidden="true">
+        <div class="balloon-cap"></div>
+        <div class="balloon-lines"></div>
+        <div class="balloon-basket"></div>
+      </div>
+
+      <div class="balloon balloon-two" aria-hidden="true">
+        <div class="balloon-cap"></div>
+        <div class="balloon-lines"></div>
+        <div class="balloon-basket"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <span class="eyebrow">✦ ESTÁS INVITADO ✦</span>
+
+        <div class="hero-photo">
+          <img src="fotos/6.png" alt="Mateo sonriendo">
+        </div>
+
+        <p class="script hero-pretitle">
+          El Bautismo y Primer Añito de
+        </p>
+
+        <h2>Mateo</h2>
+
+        <div class="hero-decor">☁ ✦ 🧸 ✦ ☁</div>
+
+        <p class="hero-message">
+          Entre nubes, sueños y mucho amor,
+          llegó un momento muy especial.
+          <br><br>
+          Voy a recibir mi bautismo y
+          celebrar mi primer añito.
+          <br>
+          ¡Me encantaría que me acompañes!
+        </p>
+
+        <a href="#eventos" class="btn btn-primary">
+          Descubrí mi gran día ↓
+        </a>
+
+      </div>
+
+      <div class="cloud cloud-h1"></div>
+      <div class="cloud cloud-h2"></div>
+
+    </section>
+
+
+    <!-- FRASE -->
+    <section class="quote-section reveal">
+      <span class="gold-stars">✦ ✧ ✦</span>
+
+      <h2>Un día, dos motivos para celebrar</h2>
+
+      <p>
+        Mi primer añito de vida y un nuevo
+        camino lleno de bendiciones.
+      </p>
+
+      <div class="quote-symbol">♡</div>
+    </section>
+
+
+    <!-- EVENTOS -->
+    <section id="eventos" class="section events-section">
+
+      <div class="section-heading reveal">
+        <span>GUARDÁ LA FECHA</span>
+        <h2>Mi gran día</h2>
+        <p>Sábado 28 de noviembre de 2026</p>
+      </div>
+
+      <div class="event-grid">
+
+        <article class="event-card reveal">
+          <div class="event-icon">🕊️</div>
+          <span class="event-label">PRIMERA CELEBRACIÓN</span>
+
+          <h3>Mi Bautismo</h3>
+
+          <div class="event-time">17:00 hs</div>
+
+          <p class="event-place">
+            Parroquia Nuestra Señora del Carmen
+          </p>
+
+          <p class="event-description">
+            Un momento lleno de fe, amor y bendiciones.
+          </p>
+
+          <a id="mapChurch" class="btn btn-outline"
+             target="_blank" rel="noopener noreferrer">
+            📍 Cómo llegar
+          </a>
+        </article>
+
+        <article class="event-card reveal">
+          <div class="event-icon">🎂</div>
+          <span class="event-label">SEGUNDA CELEBRACIÓN</span>
+
+          <h3>Mi Primer Añito</h3>
+
+          <div class="event-time">21:30 hs</div>
+
+          <p class="event-place">
+            Saloncito Narciso
+          </p>
+
+          <p class="event-description">
+            Una noche para compartir risas,
+            abrazos y momentos inolvidables.
+          </p>
+
+          <a id="mapParty" class="btn btn-outline"
+             target="_blank" rel="noopener noreferrer">
+            📍 Cómo llegar
+          </a>
+        </article>
+
+      </div>
+
+      <div class="event-date reveal">
+        <span>✦</span>
+        <strong>28 NOVIEMBRE 2026</strong>
+        <span>✦</span>
+      </div>
+
+    </section>
+
+
+    <!-- CUENTA REGRESIVA -->
+    <section id="cuenta" class="section countdown-section">
+
+      <div class="section-heading reveal">
+        <span>LA MAGIA ESTÁ POR COMENZAR</span>
+        <h2>Cuenta regresiva</h2>
+        <p id="countdownText">¡Cada vez falta menos!</p>
+      </div>
+
+      <div class="countdown-grid reveal">
+        <div class="time-box">
+          <strong id="days">00</strong>
+          <span>Días</span>
+        </div>
+
+        <div class="time-box">
+          <strong id="hours">00</strong>
+          <span>Horas</span>
+        </div>
+
+        <div class="time-box">
+          <strong id="minutes">00</strong>
+          <span>Minutos</span>
+        </div>
+
+        <div class="time-box">
+          <strong id="seconds">00</strong>
+          <span>Segundos</span>
+        </div>
+      </div>
+
+      <div class="countdown-footer">☁ 🧸 ☁</div>
+
+    </section>
+
+
+    <!-- GALERÍA -->
+    <section id="recuerdos" class="section gallery-section">
+
+      <div class="section-heading reveal">
+        <span>UN AÑO DE RECUERDOS</span>
+        <h2>Mis momentos favoritos</h2>
+
+        <p>
+          Cada sonrisa cuenta una historia.
+          Estos son algunos de mis recuerdos.
+        </p>
+      </div>
+
+      <div id="gallery" class="gallery-grid"></div>
+
+      <p class="gallery-caption">
+        Mi primer añito lleno de amor ♡
+      </p>
+
+    </section>
+
+
+    <!-- JUEGO -->
+    <section class="section game-section">
+
+      <div class="game-card reveal">
+        <span class="game-bear">🧸</span>
+
+        <div class="section-heading">
+          <span>UN JUEGUITO PARA VOS</span>
+          <h2>Buscá los ositos</h2>
+          <p>
+            Hay 3 ositos escondidos entre las nubes.
+            ¿Los encontrás?
+          </p>
+        </div>
+
+        <div id="gameBoard" class="game-board"></div>
+
+        <p id="gameStatus" class="game-status" aria-live="polite">
+          Encontraste 0 de 3 ositos
+        </p>
+
+        <button id="restartGame" class="btn btn-outline">
+          Volver a jugar
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-- CONFIRMACIÓN -->
+    <section id="confirmar" class="section rsvp-section">
+
+      <div class="section-heading reveal">
+        <span>ME HARÍA MUY FELIZ VERTE</span>
+        <h2>¿Me acompañás?</h2>
+        <p>Confirmá tu asistencia por WhatsApp.</p>
+      </div>
+
+      <form id="rsvpForm" class="rsvp-form reveal">
+
+        <label for="guestName">Tu nombre</label>
+        <input id="guestName" type="text"
+               placeholder="Escribí tu nombre"
+               maxlength="80" required>
+
+        <label for="attendance">¿Vas a venir?</label>
+        <select id="attendance">
+          <option value="si">¡Sí, voy a estar! 💙</option>
+          <option value="no">No voy a poder asistir</option>
+        </select>
+
+        <label for="guestCount" id="guestCountLabel">
+          ¿Cuántas personas vienen?
+        </label>
+
+        <select id="guestCount">
+          <option value="1">1 persona</option>
+          <option value="2">2 personas</option>
+          <option value="3">3 personas</option>
+          <option value="4">4 personas</option>
+          <option value="5">5 personas</option>
+          <option value="6">6 personas</option>
+          <option value="7">7 personas</option>
+          <option value="8">8 personas</option>
+        </select>
+
+        <label for="message">Un mensajito para Mateo</label>
+        <textarea id="message" rows="3"
+                  maxlength="500"
+                  placeholder="Escribí algo lindo..."></textarea>
+
+        <button type="submit" class="btn btn-primary">
+          💌 Confirmar por WhatsApp
+        </button>
+
+        <p id="formNotice" class="form-notice"
+           aria-live="polite"></p>
+      </form>
+
+    </section>
+
+
+    <!-- DESPEDIDA -->
+    <footer class="footer">
+      <div class="footer-symbol">☁ 🧸 ☁</div>
+
+      <h2>¡Te espero!</h2>
+
+      <p>
+        Gracias por ser parte de mi historia.
+        <br>
+        ¡Nos vemos en mi gran día!
+      </p>
+
+      <strong>Con amor, Mateo ♡</strong>
+
+      <div class="footer-stars">✦ ✧ ✦</div>
+    </footer>
+
+  </main>
+
+
+  <!-- VISOR DE FOTOS -->
+  <div id="lightbox" class="lightbox"
+       role="dialog" aria-modal="true"
+       aria-label="Galería de Mateo" hidden>
+
+    <button id="closeLightbox" class="lightbox-close"
+            aria-label="Cerrar">×</button>
+
+    <button id="prevPhoto" class="lightbox-arrow"
+            aria-label="Anterior">‹</button>
+
+    <img id="lightboxImage" alt="Recuerdo de Mateo">
+
+    <button id="nextPhoto" class="lightbox-arrow"
+            aria-label="Siguiente">›</button>
+
+    <span id="photoCounter" class="photo-counter"></span>
+  </div>
+
+  <!-- VOLVER ARRIBA -->
+  <button id="backToTop" class="back-to-top"
+          aria-label="Volver arriba" hidden>↑</button>
+
+</body>
+</html>
